@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var recordingInProgress: UILabel!
     @IBOutlet weak var stopButton: UIButton!
     
@@ -19,6 +20,7 @@ class ViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
+        recordButton.enabled = true
         stopButton.hidden = true
     }
 
@@ -28,6 +30,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func recordAudio(sender: UIButton) {
+        recordButton.enabled = false
         stopButton.hidden = false
         // TODO: Show text "recording in progress"
         recordingInProgress.hidden = false
@@ -36,6 +39,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func stopRecording(sender: UIButton) {
+        recordButton.enabled = true
         recordingInProgress.hidden = true
         stopButton.hidden = true
         println("stop recordAudio")
