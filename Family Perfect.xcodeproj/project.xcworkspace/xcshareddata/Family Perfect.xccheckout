@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC8307B3-0E93-4830-A3E0-D63D315F6387</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Family Perfect</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B121E78F1B0038747F6BA9F35C0D97BF8ADE0D8</key>
+		<string>github.com:byennen/swift-family-perfect.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Family Perfect.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B121E78F1B0038747F6BA9F35C0D97BF8ADE0D8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:byennen/swift-family-perfect.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3B121E78F1B0038747F6BA9F35C0D97BF8ADE0D8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B121E78F1B0038747F6BA9F35C0D97BF8ADE0D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Family%20Perfect</string>
+		</dict>
+	</array>
+</dict>
+</plist>

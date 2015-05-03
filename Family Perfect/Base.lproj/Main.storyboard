@@ -19,7 +19,7 @@
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Recording" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jL-02-7Xz">
                                 <rect key="frame" x="242" y="302" width="116" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yZ-Hb-SJ3">
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="eXd-ny-8JL" firstAttribute="top" secondItem="5yZ-Hb-SJ3" secondAttribute="bottom" constant="37" id="3Uo-vX-joT"/>
                             <constraint firstAttribute="centerX" secondItem="2jL-02-7Xz" secondAttribute="centerX" id="48u-I2-ykZ"/>
@@ -56,6 +56,7 @@
                     </view>
                     <connections>
                         <outlet property="recordingInProgress" destination="2jL-02-7Xz" id="Kdj-np-am5"/>
+                        <outlet property="stopButton" destination="eXd-ny-8JL" id="MWk-cW-Pef"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
