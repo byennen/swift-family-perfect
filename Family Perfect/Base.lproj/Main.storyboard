@@ -45,7 +45,6 @@
                         <constraints>
                             <constraint firstItem="eXd-ny-8JL" firstAttribute="top" secondItem="5yZ-Hb-SJ3" secondAttribute="bottom" constant="37" id="3Uo-vX-joT"/>
                             <constraint firstAttribute="centerX" secondItem="2jL-02-7Xz" secondAttribute="centerX" id="48u-I2-ykZ"/>
-                            <constraint firstItem="2jL-02-7Xz" firstAttribute="top" secondItem="5yZ-Hb-SJ3" secondAttribute="bottom" id="6c5-zn-oHu"/>
                             <constraint firstAttribute="centerX" secondItem="2jL-02-7Xz" secondAttribute="centerX" id="7vf-mc-bfF"/>
                             <constraint firstItem="5yZ-Hb-SJ3" firstAttribute="centerX" secondItem="2jL-02-7Xz" secondAttribute="centerX" constant="1" id="KI9-23-Zfk"/>
                             <constraint firstItem="2jL-02-7Xz" firstAttribute="top" secondItem="5yZ-Hb-SJ3" secondAttribute="bottom" constant="8" id="TRJ-Gy-Eam"/>
