@@ -38,11 +38,11 @@ class ViewController: UIViewController {
         println("in recordAudio")
     }
 
-    @IBAction func stopRecording(sender: UIButton) {
-        recordButton.enabled = true
-        recordingInProgress.hidden = true
-        stopButton.hidden = true
-        println("stop recordAudio")
-    }
+//    @IBAction func stopRecording(sender: UIButton) {
+//        recordButton.enabled = true
+//        recordingInProgress.hidden = true
+//        stopButton.hidden = true
+//        println("stop recordAudio")
+//    }
 }
 
