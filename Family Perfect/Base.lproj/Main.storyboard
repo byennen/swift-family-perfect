@@ -83,7 +83,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playSoundsSlowly:" destination="bgK-0C-R5i" eventType="touchUpInside" id="p4x-dC-qmn"/>
+                                    <action selector="playSlowAudio:" destination="bgK-0C-R5i" eventType="touchUpInside" id="kKN-ga-ruT"/>
                                 </connections>
                             </button>
                         </subviews>

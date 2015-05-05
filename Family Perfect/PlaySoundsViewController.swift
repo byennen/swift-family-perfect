@@ -32,6 +32,7 @@ class PlaySoundsViewController: UIViewController {
     }
     */
 
-    @IBAction func playSoundsSlowly(sender: UIButton) {
+    @IBAction func playSlowAudio(sender: UIButton) {
+        println("play slow audio")
     }
 }
