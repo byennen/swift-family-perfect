@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="1363" y="401"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="91F-qU-Bed">
             <objects>
-                <viewController id="bgK-0C-R5i" sceneMemberID="viewController">
+                <viewController id="bgK-0C-R5i" customClass="PlaySoundsViewController" customModule="Family_Perfect" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pxk-Wn-CNp"/>
                         <viewControllerLayoutGuide type="bottom" id="6pS-ZG-2gi"/>
@@ -75,7 +75,22 @@
                     <view key="view" contentMode="scaleToFill" id="p6U-6x-SaJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aC-ju-IPY">
+                                <rect key="frame" x="54" y="100" width="100" height="100"/>
+                                <state key="normal" image="play-sound-slowly">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSoundsSlowly:" destination="bgK-0C-R5i" eventType="touchUpInside" id="p4x-dC-qmn"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="4aC-ju-IPY" secondAttribute="centerY" constant="150" id="oWC-30-kee"/>
+                            <constraint firstAttribute="centerX" secondItem="4aC-ju-IPY" secondAttribute="centerX" constant="196" id="yqR-RN-CyN"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0DK-pg-ytT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -104,5 +119,6 @@
     <resources>
         <image name="Stop" width="50" height="50"/>
         <image name="microphone" width="100" height="100"/>
+        <image name="play-sound-slowly" width="100" height="100"/>
     </resources>
 </document>
