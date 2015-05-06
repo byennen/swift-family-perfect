@@ -14,6 +14,7 @@
 		0F41BC561AE935020031AF58 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F41BC541AE935020031AF58 /* LaunchScreen.xib */; };
 		0F41BC621AE935020031AF58 /* Family_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F41BC611AE935020031AF58 /* Family_PerfectTests.swift */; };
 		0F702E491AF927FD0001E167 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F702E481AF927FD0001E167 /* PlaySoundsViewController.swift */; };
+		0F702E4B1AF936E70001E167 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F702E4A1AF936E70001E167 /* movie_quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0F41BC601AE935020031AF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F41BC611AE935020031AF58 /* Family_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family_PerfectTests.swift; sourceTree = "<group>"; };
 		0F702E481AF927FD0001E167 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		0F702E4A1AF936E70001E167 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		0F41BC491AE935020031AF58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F702E4A1AF936E70001E167 /* movie_quote.mp3 */,
 				0F41BC4A1AE935020031AF58 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -197,6 +200,7 @@
 			files = (
 				0F41BC511AE935020031AF58 /* Main.storyboard in Resources */,
 				0F41BC561AE935020031AF58 /* LaunchScreen.xib in Resources */,
+				0F702E4B1AF936E70001E167 /* movie_quote.mp3 in Resources */,
 				0F41BC531AE935020031AF58 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
